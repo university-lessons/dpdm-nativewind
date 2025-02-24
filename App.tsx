@@ -1,5 +1,15 @@
-import Home from "./app/Home";
+import { ScrollView } from "react-native";
+import ActivityScreenStyles from "./components/with-styles";
+
+import "./global.css";
+import ActivityScreenTailwind from "./components/with-tailwind";
 
 export default function App() {
-  return <Home />;
+  return (
+    <ScrollView>
+      {/* <ActivityScreenStyles /> */}
+
+      <ActivityScreenTailwind />
+    </ScrollView>
+  );
 }
